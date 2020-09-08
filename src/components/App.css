@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #cabbe9;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h3 {
+  font-size: 22px;
+  margin: 10px 0 0;
+}
+.app {
+  margin: 50px;
+  font: 14px sans-serif;
+}
+button {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  width: 90px;
+  line-height: 36px;
+  font-size: 16px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #fdfdfd;
+  background-color: #ffcef3;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  margin-left: 10px !important;
+}
+.btn:hover {
+  background-color: #a1eafb;
+}
+button .active{
+  background-color: #a1eafb;
+}
+.listImg{
+  float: left;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space:nowrap;
+  width: 100%;
+}
+.listImg::-webkit-scrollbar{
+  width: 0px;
+}
+.iimg{
+  display: inline-block;
+  vertical-align: top;
+  width: auto;
+  margin-left: 10px !important;
+}
+.login{
+  background-color: #a1eafb;
+}
+.ib{
+  margin: 10px;
+}
